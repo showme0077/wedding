@@ -26,7 +26,7 @@
     <span class="font_zero">testtest</span>
     <div id="map" class="map" style="width:500px;height:400px;"></div>
     <a
-      href="https://apis.openapi.sk.com/tmap/app/routes?appKey=f0c35193-8e05-4c47-bd28-8f2eede359ec&name=오피뉴웨딩&lon=127.1089195&lat=37.3505363"
+      href="https://apis.openapi.sk.com/tmap/app/routes?appKey=f0c35193-8e05-4c47-bd28-8f2eede359ec&name=금산잼월드빌딩 주차장&lon=127.1089195&lat=37.3505363"
     >
       TMAP 바로가기
     </a>
@@ -44,7 +44,7 @@
     var geocoder = new daum.maps.services.Geocoder();
 
     // 주소로 좌표를 검색합니다
-    geocoder.addressSearch("성남시 금곡동 분당구 금곡동 157번지", function(
+    geocoder.addressSearch("경기 성남시 분당구 금곡동 157", function(
       result,
       status
     ) {
@@ -67,7 +67,8 @@
           position: markerPosition
         });
         var infoWindow = new daum.maps.InfoWindow({
-          content: '<span class="mapInfoWindow"> <p> 오피뉴 웨딩 </p> </span>'
+          content:
+            '<span class="mapInfoWindow"> <p> 오피뉴 웨딩하우스 </p> </span>'
         });
 
         // 마커가 지도 위에 표시되도록 설정합니다
@@ -85,7 +86,7 @@
     // 카카오 로그인 버튼을 생성합니다.
     function navi() {
       Kakao.Navi.start({
-        name: "오피뉴 웨딩",
+        name: "금산잼월드빌딩 주차장",
         x: 127.1089195,
         y: 37.3505363,
         coordType: "wgs84"
