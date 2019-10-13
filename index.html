@@ -26,7 +26,7 @@
     <span class="font_zero">testtest</span>
     <div id="map" class="map" style="width:500px;height:400px;"></div>
     <a
-      href="https://apis.openapi.sk.com/tmap/app/routes?appKey=f0c35193-8e05-4c47-bd28-8f2eede359ec&name=금산잼월드빌딩 주차장&lon=127.1089195&lat=37.3505363"
+      href="https://apis.openapi.sk.com/tmap/app/routes?appKey=f0c35193-8e05-4c47-bd28-8f2eede359ec&name=금산잼월드빌딩&lon=127.1089195&lat=37.3505363"
     >
       TMAP 바로가기
     </a>
@@ -87,8 +87,8 @@
     function navi() {
       Kakao.Navi.start({
         name: "금산잼월드빌딩 주차장",
-        x: 127.1089195,
-        y: 37.3505363,
+        x: coords.ib,
+        y: coords.jb,
         coordType: "wgs84"
       });
     }
