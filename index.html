@@ -26,7 +26,7 @@
     <span class="font_zero">testtest</span>
     <div id="map" class="map" style="width:500px;height:400px;"></div>
     <a
-      href="https://apis.openapi.sk.com/tmap/app/routes?appKey=f0c35193-8e05-4c47-bd28-8f2eede359ec&name=금산잼월드빌딩주차장&lon=127.1089195&lat=37.3505363"
+      href="https://apis.openapi.sk.com/tmap/app/routes?appKey=f0c35193-8e05-4c47-bd28-8f2eede359ec&name=금산잼월드빌딩&lon=127.109507&lat=37.350496"
     >
       TMAP 바로가기
     </a>
@@ -44,7 +44,10 @@
     var geocoder = new daum.maps.services.Geocoder();
 
     // 주소로 좌표를 검색합니다
-    geocoder.addressSearch("금산잼월드빌딩 주차장", function(result, status) {
+    geocoder.addressSearch("경기 성남시 분당구 금곡동 157", function(
+      result,
+      status
+    ) {
       if (status === daum.maps.services.Status.OK) {
         coords = new daum.maps.LatLng(result[0].y, result[0].x);
         var mapContainer = document.getElementById("map"), // 지도를 표시할 div
@@ -84,8 +87,8 @@
     function navi() {
       Kakao.Navi.start({
         name: "금산잼월드빌딩 주차장",
-        x: coords.ib,
-        y: coords.jb,
+        x: 127.109507,
+        y: 37.350496,
         coordType: "wgs84"
       });
     }
