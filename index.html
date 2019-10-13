@@ -7,10 +7,6 @@
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
     />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <script
-      type="text/javascript"
-      src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2431003912cdd8b234c67a962349d83f&libraries=services"
-    ></script>
     <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
     <title>TEST</title>
     <style>
@@ -34,29 +30,22 @@
     >
       TMAP 바로가기
     </a>
-    <a href="#" onclick="navi()" ;>
+    <a id="navi" href="#" onclick="navi()" ;>
       카카오내비 바로가기
     </a>
   </body>
-  <script>
+  <script type="text/javascript">
     // 사용할 앱의 JavaScript 키를 설정해 주세요.
     Kakao.init("2431003912cdd8b234c67a962349d83f");
     // 카카오 로그인 버튼을 생성합니다.
     function navi() {
       Kakao.Navi.start({
         name: "오피뉴 웨딩",
-        x: "127.1089195",
-        y: "37.3505363",
+        x: 127.1089195,
+        y: 37.3505363,
         coordType: "wgs84"
       });
     }
     //]]>
-    function kakaoMapNav() {
-      location.href =
-        " http://map.daum.net/link/to/오피뉴 웨딩," +
-        coords.jb +
-        "," +
-        coords.ib;
-    }
   </script>
 </html>
