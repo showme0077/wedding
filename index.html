@@ -1,44 +1,331 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ko">
   <head>
     <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
-    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>TEST</title>
-    <style>
-      .font_zero {
-        font-size: 0;
-      }
-      span {
-        display: block;
-      }
-      span.font_zero {
-        width: 10px;
-        height: 10px;
-      }
-    </style>
+    <link
+      href="https://fonts.googleapis.com/css?family=Noto+Serif+KR:300,400,700&display=swap&subset=korean"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="assets/css/common.css" />
+    <link rel="stylesheet" href="assets/css/index.css" />
+    <link rel="stylesheet" href="assets/css/swiper.css" />
+    <title>유영준 그리고 이가연 결혼합니다.</title>
   </head>
   <body>
-    <h1>Font size Test</h1>
-    <span class="font_zero">testtest</span>
-    <div id="map" class="map" style="width:500px;height:400px;"></div>
-    <a
-      href="https://apis.openapi.sk.com/tmap/app/routes?appKey=f0c35193-8e05-4c47-bd28-8f2eede359ec&name=금산잼월드빌딩&lon=127.109507&lat=37.350496"
-    >
-      TMAP 바로가기
-    </a>
-    <a id="navi" href="#" onclick="navi()" ;>
-      카카오내비 바로가기
-    </a>
+    <main>
+      <section class="section-main">
+        <div class="img-title">
+          <img src="assets/images/title.png" alt="" />
+        </div>
+        <div class="visual-img">
+          <img src="assets/images/default-visual.png" alt="" />
+          <span class="img-area"></span>
+        </div>
+        <div class="visual-txt">
+          <h1>
+            <span>유영준</span> 그리고 <span>이가연</span>
+            <br />
+            <span>결혼합니다</span>
+          </h1>
+          <img class="line-h" src="assets/images/lineh_img.png" alt="" />
+          <p>
+            2019년 11월 16일 토요일 오후 12시30분 <br />
+            분당 미금 오피뉴웨딩홀
+          </p>
+        </div>
+      </section>
+      <section class="bg-f9">
+        <p class="greeting-txt">
+          곁에 있을 때 가장 나다운 모습이 되게 하는 한 사람 <br />
+          꿈을 펼칠 수 있도록 서로에게 날개가 되어줄 한 사람 <br />
+          그 사람과 삶의 여행을 함께 떠나려 합니다. <br />
+          저희 여행의 출발점에 여러분을 초대하오니 <br />
+          오셔서 많이 축복해 주시면 큰 기쁨이겠습니다.
+        </p>
+        <div class="name-area">
+          <p>
+            <span class="parents">유대영 장영숙</span> 의 장남
+            <span>유영준</span>
+          </p>
+          <p><span class="parents">고미정</span> 의 장녀 <span>이가연</span></p>
+        </div>
+      </section>
+      <section class="section-label label-01">
+        <div class="calendar">
+          <div class="label-inner">
+            <img src="assets/images/calendar.png" alt="" />
+          </div>
+          <p>
+            소중한 날, 소중한 분들과 함께 하고싶습니다. <br />
+            2019년 11월 16일 오후 12시 30분
+          </p>
+        </div>
+      </section>
+      <section class="section-label label-02">
+        <div class="swiper-container gallery-top">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_01.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_02.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_03.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_04.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_05.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_06.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_07.jpg)"
+              ></span>
+            </div>
+          </div>
+          <!-- Add Arrows -->
+          <div class="swiper-btn-next"></div>
+          <div class="swiper-btn-prev"></div>
+        </div>
+        <div class="swiper-container gallery-thumbs">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual_02.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_01.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual_02.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_02.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual_02.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_03.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual_02.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_04.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual_02.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_05.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual_02.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_06.jpg)"
+              ></span>
+            </div>
+            <div class="swiper-slide">
+              <img
+                class="default-img"
+                src="assets/images/default-visual_02.png"
+                alt=""
+              />
+              <span
+                class="img-area"
+                style="background-image:url(assets/images/wedding/gallery_07.jpg)"
+              ></span>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="section-label bg-f9 label-03">
+        <p class="label-inner addr-area">
+          <strong>오피뉴웨딩하우스</strong>
+          경기 성남시 분당구 금곡동 157 <br />
+          경기도 성남시 분당구 돌마로 67 <br />
+          금산젬월드 5F
+          <span>TEL : 031-711-0110</span>
+        </p>
+        <div id="map" class="map-area">
+          <!-- 맵 -->
+        </div>
+        <div class="traffic">
+          <div class="traffic-inner">
+            <strong>지하철</strong>
+            <p>분당선 미금역 하차 - 1번출구 연결통로</p>
+          </div>
+          <div class="traffic-inner">
+            <strong>버스</strong>
+            <p class="bus">
+              <span class="category">마을버스 :</span>
+              <span class="cont">2, 26-2, 39-1, 39-3, 80, 810</span>
+            </p>
+            <p class="bus">
+              <span class="category">일반버스 :</span>
+              <span class="cont"
+                >2, 222, 250, 300, 380, 520, 720, 720-1, 820</span
+              >
+            </p>
+            <p class="bus">
+              <span class="category">직행버스 :</span>
+              <span class="cont"
+                >102, 1241, 1303, 3500, 5500-1, 1771-1, 9414</span
+              >
+            </p>
+            <p class="bus">
+              <span class="category">급행버스 :</span>
+              <span class="cont">8100, 8101, 8106, 8109, M4102</span>
+            </p>
+          </div>
+          <div class="traffic-inner">
+            <strong>주차</strong>
+            <p>미금역 도착 후, 건물 뒷편 주차장 지하 2층 ~ 지하 6층</p>
+          </div>
+        </div>
+      </section>
+      <section class="section-label label-04">
+        <div class="label-inner">
+          <div class="navi-area" onclick="KakaoNavi()">
+            <img src="assets/images/kko_navi.png" alt="" />
+            <span>카카오내비</span>
+          </div>
+          <div class="navi-area" onclick="TMapNavi()">
+            <img src="assets/images/tm_navi.png" alt="" />
+            <span>티맵</span>
+          </div>
+        </div>
+      </section>
+      <!-- <section class="section-last bg-f9">
+      <p>참석이 어려우신 분들은 축하의 마음을 전해주세요.</p>
+      <span>신한은행 110-258-028867 유영준</span>
+      <span>하나은행 439-910592-47207 이가연</span>
+    </section> -->
+      <footer class="copylight bg-f9">
+        <p>
+          Copyrighty ⓒ by Gayeon All Rights Reserved.
+        </p>
+      </footer>
+    </main>
   </body>
   <script
     type="text/javascript"
     src="//dapi.kakao.com/v2/maps/sdk.js?appkey=2431003912cdd8b234c67a962349d83f&libraries=services"
   ></script>
   <script src="//developers.kakao.com/sdk/js/kakao.min.js"></script>
+  <script src="assets/js/swiper.min.js"></script>
+  <script>
+    var galleryThumbs = new Swiper(".gallery-thumbs", {
+      spaceBetween: 10,
+      slidesPerView: 4,
+      loop: true,
+      centeredSlides: true,
+      watchSlidesVisibility: true,
+      watchSlidesProgress: true
+    });
+    var galleryTop = new Swiper(".gallery-top", {
+      // spaceBetween: 10,
+      loop: true,
+      navigation: {
+        nextEl: ".swiper-btn-next",
+        prevEl: ".swiper-btn-prev"
+      },
+      thumbs: {
+        swiper: galleryThumbs
+      }
+    });
+  </script>
   <script type="text/javascript">
     var coords;
     var geocoder = new daum.maps.services.Geocoder();
@@ -84,7 +371,7 @@
     // 사용할 앱의 JavaScript 키를 설정해 주세요.
     Kakao.init("2431003912cdd8b234c67a962349d83f");
     // 카카오 로그인 버튼을 생성합니다.
-    function navi() {
+    function KakaoNavi() {
       Kakao.Navi.start({
         name: "금산잼월드빌딩 주차장",
         x: 127.109507,
@@ -92,12 +379,10 @@
         coordType: "wgs84"
       });
     }
+    function TMapNavi() {
+      location.href =
+        "https://apis.openapi.sk.com/tmap/app/routes?appKey=f0c35193-8e05-4c47-bd28-8f2eede359ec&name=금산잼월드빌딩&lon=127.109507&lat=37.350496";
+    }
     //]]>
   </script>
 </html>
-<style>
-  .mapInfoWindow {
-    width: 150px;
-    text-align: center;
-  }
-</style>

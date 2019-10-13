@@ -1,0 +1,62 @@
+@charset "utf-8";
+
+/*
+    common
+ */
+
+@font-face {
+  font-family: 'NotoSerifCJKkr';
+  src: url('../font/NotoSerifCJKkr-Light.woff') format('woff'),
+  url('../font/NotoSerifCJKkr-Light.otf') format('otf');
+  font-weight: 300;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSerifCJKkr';
+  src: url('../font/NotoSerifCJKkr-Regular.woff') format('woff'),
+  url('../font/NotoSerifCJKkr-Regular.otf') format('otf');
+  font-weight: 400;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'NotoSerifCJKkr';
+  src: url('../font/NotoSerifCJKkr-Bold.woff') format('woff'),
+  url('../font/NotoSerifCJKkr-Bold.otf') format('otf');
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  -webkit-tap-highlight-color: transparent;
+}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, a, small, strike, strong,
+dl, dt, dd, ol, ul, li, fieldset, form, label, legend,
+article, aside, footer, header, hgroup,
+menu, nav, output, ruby, section {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  vertical-align: baseline;
+}
+html, body, #app, main {
+  height: 100%;
+}
+html {
+  font-size: 16px;
+}
+body {
+  font-family: 'NotoSerifCJKkr', 'Noto Serif KR', serif;
+  font-weight: 400;
+  line-height: 1;
+  background-color: transparent;
+}
+ol, ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
