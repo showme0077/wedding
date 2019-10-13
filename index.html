@@ -29,5 +29,29 @@
     >
       TMAP 바로가기
     </a>
+    <a href="#none" onclick="navi()" ;>
+      카카오내비 바로가기
+    </a>
   </body>
+  <script>
+    // 사용할 앱의 JavaScript 키를 설정해 주세요.
+    Kakao.init("2431003912cdd8b234c67a962349d83f");
+    // 카카오 로그인 버튼을 생성합니다.
+    function navi() {
+      Kakao.Navi.start({
+        name: "오피뉴 웨딩",
+        x: "127.1089195",
+        y: "37.3505363",
+        coordType: "wgs84"
+      });
+    }
+    //]]>
+    function kakaoMapNav() {
+      location.href =
+        " http://map.daum.net/link/to/오피뉴 웨딩," +
+        coords.jb +
+        "," +
+        coords.ib;
+    }
+  </script>
 </html>
