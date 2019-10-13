@@ -267,6 +267,7 @@ section {
 
 .addr-area {
   padding-top: 45%;
+  padding-left: 10%;
   font-size: 0.85rem;
   font-weight: 400;
   letter-spacing: -0.5px;
@@ -350,6 +351,7 @@ section {
 
 .label-04 .label-inner {
   padding-top: 20%;
+  padding-left: 15%;
 }
 
 .navi-area {
