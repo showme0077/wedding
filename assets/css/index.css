@@ -282,6 +282,12 @@ section {
   display: block;
   color: #666;
 }
+.addr-area span:active {
+  color: #666;
+}
+.addr-area span:visited {
+  color: #666;
+}
 
 .map-area {
   width: 100%;
@@ -317,7 +323,7 @@ section {
   padding-top: 10px;
   font-size: 0;
   font-size: 0.85rem;
-  line-height: 1.5;
+  line-height: 2;
   color: #666;
 }
 
@@ -347,6 +353,7 @@ section {
 }
 
 .navi-area {
+  display: block;
   margin-bottom: 5%;
   cursor: pointer;
   /* margin-left: 30%; */
@@ -394,4 +401,9 @@ section {
 
 .bg-f9 {
   background-color: #f9f9f9;
+}
+.mapInfoWindow {
+  width: 150px;
+  line-height: 23px;
+  text-align: center;
 }
