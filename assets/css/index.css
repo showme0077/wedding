@@ -412,28 +412,33 @@
 }
 .section-share {
   width: 80%;
-  margin: 10% auto;
+  margin: 20% auto;
   text-align: center;
 }
 .kakao-share {
-  display: block;
-    padding: 10px 0;
-    margin: 0 auto;
-    width: 80%;
-    background: #fae100;
+  display: inline-block;
+  padding: 10px 0;
+  margin: 0 auto;
+  width: auto;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 5%;
+  background: #fae100;
 }
 .kakao-share img {
   display: inline-block;
-  width: 10%;
+  height: 100%;
+  padding: 5px 0;
   vertical-align: middle;
 }
 .kakao-share span {
   display: inline-block;
   vertical-align: middle;
   padding-left: 10px;
-  color: #333;
+  color: #1e1e1e;
+  font-family: 'Apple SD Gothic Neo', sans-serif !important;
   font-size: 0.9rem;
-  font-weight: 700;
+  font-weight: 400;
 }
 .kakao-share span:active {
   color: #333;
