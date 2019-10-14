@@ -185,6 +185,7 @@
           <span>티맵</span>
         </a>
       </div>
+      <a id="kakao-link-btn" href="javascript:;">카카오톡</a>
     </section>
     <!-- <section class="section-last bg-f9">
       <p>참석이 어려우신 분들은 축하의 마음을 전해주세요.</p>
@@ -281,6 +282,17 @@
       "https://apis.openapi.sk.com/tmap/app/routes?appKey=f0c35193-8e05-4c47-bd28-8f2eede359ec&name=금산잼월드빌딩&lon=127.109507&lat=37.350496";
   }
     //]]>
+
+
+    Kakao.Link.createCustomButton({
+      container: '#kakao-link-btn',
+      templateId: 18673,
+      templateArgs: {
+        'title': '제목 영역입니다.',
+        'description': '설명 영역입니다.'
+      }
+    });
+ 
 </script>
 
 </html>
