@@ -1,4 +1,8 @@
 section {
+  /* padding: 20% 0; */
+}
+
+.section-greeting {
   padding: 20% 0;
 }
 
@@ -55,6 +59,7 @@ section {
 
 .visual-txt {
   padding-top: 15%;
+  padding-bottom: 20%;
 }
 
 .visual-txt h1 {
@@ -127,6 +132,7 @@ section {
 }
 
 .label-02 {
+  padding-top: 20%;
   background-image: url("../images/label_02.png");
 }
 
@@ -164,6 +170,7 @@ section {
 
 .calendar p {
   margin-top: 20%;
+  padding-bottom: 20%;
   font-size: 0.9rem;
   font-weight: 300;
   color: #666;
@@ -310,6 +317,7 @@ section {
 
 .traffic-inner:last-child {
   margin-bottom: 0;
+  border-bottom: 0;
 }
 
 .traffic-inner strong {
