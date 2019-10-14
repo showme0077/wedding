@@ -1,7 +1,3 @@
-section {
-  /* padding: 20% 0; */
-}
-
 .section-greeting {
   padding: 20% 0;
 }
@@ -189,10 +185,6 @@ section {
   margin-top: 5%;
 }
 
-.label-02 .gallery-thumbs .swiper-wrapper {
-  /* margin-left: 10%; */
-}
-
 .label-02 .gallery-thumbs .swiper-slide:after {
   content: "";
   display: block;
@@ -273,7 +265,7 @@ section {
 }
 
 .addr-area {
-  padding-top: 45%;
+  padding-top: 60%;
   padding-left: 10%;
   font-size: 0.85rem;
   font-weight: 400;
@@ -417,4 +409,36 @@ section {
   width: 150px;
   line-height: 23px;
   text-align: center;
+}
+.section-share {
+  width: 80%;
+  margin: 10% auto;
+  text-align: center;
+}
+.kakao-share {
+  display: block;
+    padding: 10px 0;
+    margin: 0 auto;
+    width: 80%;
+    background: #fae100;
+}
+.kakao-share img {
+  display: inline-block;
+  width: 10%;
+  vertical-align: middle;
+}
+.kakao-share span {
+  display: inline-block;
+  vertical-align: middle;
+  padding-left: 10px;
+  color: #333;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+.kakao-share span:active {
+  color: #333;
+}
+
+.kakao-share span:visited {
+  color: #333;
 }
