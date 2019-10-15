@@ -42,17 +42,6 @@
   background-image: url("../images/title_img.png");
 }
 
-.visual-img .img-area:after {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  position: absolute;
-  top: 0;
-  left: 0;
-  background-color: rgba(0, 0, 0, 0.05);
-}
-
 .visual-txt {
   padding-top: 15%;
   padding-bottom: 20%;
